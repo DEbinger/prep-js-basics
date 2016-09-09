@@ -10,8 +10,14 @@
 * It should be a String.
 **/
 
+var firstName = "Greatest";
+console.log(firstName);
 
+var lastName = "Ever";
+console.log(lastName);
 
+var birthPlace = "Earth";
+console.log(birthPlace);
 /**
 * #2
 * Variables with a Number as their value
@@ -21,8 +27,14 @@
 *
 * Their values should be a Number
 **/
+var favoriteNumber = 888;
+console.log(favoriteNumber);
 
+var currentYear = 2016;
+console.log(currentYear);
 
+var thatOnePrinceSong = 1999;
+console.log(thatOnePrinceSong);
 
 /**
 * #3
@@ -33,9 +45,17 @@
 *
 * Their values should be a Boolean
 **/
+var isDaytime = false;
+console.log(isDaytime)
 
+var isLeftHanded = true;
+console.log(isLeftHanded)
 
+var inHawaii = true;
+console.log(inHawaii);
 
+var isHappyCoding = true;
+console.log(isHappyCoding);
 /**
 * #4
 * Variables with null
@@ -44,9 +64,11 @@
 *
 * Their values should be a Null value
 **/
+var enrolledAtDevLeague = null;
+console.log(enrolledAtDevLeague);
 
-
-
+var completedFridayPrep = null;
+console.log(completedFridayPrep);
 /**
 * #5a
 * Variables with an Array for it's value. This Array will contain:
@@ -55,8 +77,8 @@
 * This Array contains the names of all the states
 * which can be found along the west coast of The United States.
 **/
-
-
+var westCoast = ["California","Oregon","Washington"];
+console.log(westCoast);
 
 /**
 * #5b
@@ -67,7 +89,8 @@
 * Have at least ten even values in this array.
 **/
 
-
+var evenNumbers = [2,4,6,8,10,12,14,16,18,20];
+console.log(evenNumbers);
 
 /**
 * #6a Arithmetic
@@ -80,9 +103,17 @@
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
+var sumOfNumbers = 5 + 10 + 15;
+console.log(sumOfNumbers);
 
+var subtraction = 100 - 1;
+console.log(subtraction);
 
+var multiplication = 100 * 100;
+console.log(multiplication);
 
+var division = 888 / 8;
+console.log(division);
 /**
 * #6b Comparisons & Logic
 * Variables with the outcome of a comparison operation:
@@ -101,7 +132,13 @@
 *   operator(==) vs triple comparison operator(===).
 */
 
+var isEqual = ("Tacocat" === "tacocat");
+console.log(isEqual);
 
+//bonus
+//var doubleComparisonOperator (888/8 == 111);
+
+//var tripleComparisonOperator (888/8 === 111);
 
 /**
 * #6c Assignments
@@ -118,8 +155,25 @@
 *   The tests for this section cannot test your variable as it changes,
 *   it can only test that you declared the variable by giving it the right name.
 */
+var generalContainer = 1000;
+console.log(generalContainer);
+  
+generalContainer *= 5
+console.log(generalContainer);
 
+generalContainer /= 10
+console.log(generalContainer);
 
+generalContainer += 44
+console.log(generalContainer);
+
+generalContainer -= 500
+console.log(generalContainer);
+
+generalContainer %= 3
+console.log(generalContainer);
+
+//**answer should be 2
 
 /**
 * #7a
@@ -133,6 +187,12 @@
 * Store the return value to a variable named `jumpResult` and use console.log to inspect the value which was returned by your function
 **/
 
+function jump(height){
+	return "You jumped "+height+ " feet high!";
+}
+console.log(jump(9))
+console.log(jump(100))
+console.log(jump("five"))
 
 
 /**
@@ -144,4 +204,7 @@
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
-
+//function cook("ingredient1","ingredient2","recipeName") {
+//	return "Chicken and Rice make a Combo Plate!"// body...
+//}
+//console.log(cook("ingredient1","ingredient2","recipeName"));
